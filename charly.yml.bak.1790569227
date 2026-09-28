@@ -1,5 +1,7 @@
+version: 2026.232.0520
 osm-tools:
     candy:
+        version: 2026.144.1443
         description: |
             OSM tile-pipeline CLIs (tippecanoe/gdal/pmtiles/gpq-tiles) plus the martin vector-tile server supervised on port 3000
             Bundles every CLI the OSM data pipeline needs — tippecanoe
@@ -15,7 +17,7 @@ osm-tools:
             the wrapper script present and executable, and a live service +
             reachable-port + HTTP-catalog probe against the running deployment.
         require:
-            - '@github.com/opencharly/layer-supervisord:v2026.240.0121'
+            - '@github.com/opencharly/layer-supervisord:v2026.235.2056'
         distro:
             arch:
                 # gdal pulls in ocl-icd which collides with opencl-nvidia's
