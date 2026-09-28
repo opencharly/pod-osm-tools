@@ -1,7 +1,5 @@
-version: 2026.232.0520
 osm-tools:
     candy:
-        version: 2026.144.1443
         description: |
             OSM tile-pipeline CLIs (tippecanoe/gdal/pmtiles/gpq-tiles) plus the martin vector-tile server supervised on port 3000
             Bundles every CLI the OSM data pipeline needs — tippecanoe
